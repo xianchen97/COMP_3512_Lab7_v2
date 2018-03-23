@@ -57,7 +57,7 @@ double VectorFunctions::average(const std::vector<int>& v)
 {
 	double sum = v[0];
 	for (int i=0; i < v.size(); i++) {
-		sum += v[0];
+		sum += v[i];
 	}
 	return sum/v.size();
 }
